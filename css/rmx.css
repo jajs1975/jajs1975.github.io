@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+/* gris:  #383c3f */
+/* verde: #0cc581 */
+
+body { background:#383c3f;}
+div.responsive img { height:auto; max-width:100%;}
+#top { background:#0CC581; height:3px; }
+
+#cabecera { padding:0 7%;}
+
+/*NAV BAR*/
+.navbar { min-height:40px; background:#383c3f; border-radius:0; margin-bottom:0; border:none;}
+.navbar-nav { float:right;}
+.navbar-nav > li > a { padding:8px 10px 5px; text-transform:uppercase;font-size:12px;}
+.navbar-header img { margin-top:6px;}
+.navbar a { color:#FFF !important; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color:#383c3f; color:#FFF; border-bottom:4px solid #0CC581;}
+
+/*DIVISIONES*/
+#div1 { background:#f6f6f6; text-align:center;}
+#div1 img { margin:60px 0 30px;}
+.row.clearfix.carrusel { clear:both;}
+#div1 .item { min-height:130px; margin:30px 0 0} 
+#div1 .carousel-caption { position:static; padding:0; text-shadow:none; }
+#div1 .carousel-caption p  { margin:0px;}
+#div1 .carousel-caption .lg { font-size:34px;}
+#div1 .carousel-caption .sm { font-size:24px;}
+#div1 .carousel-caption .gris  { color:#373b3e;}
+#div1 .carousel-caption .verde { color:#0cc581;}
+
+#div2 { background:#0cc581; text-align:center; color:#FFF; padding:40px 0;}
+#div2 h2 { margin-bottom:30px;}
+#div2 p { width:60%; margin:auto; text-align:left;}
+#div2 .btn-default { background-color:#3f3f3f; border:none; padding:15px 40px 10px; font-size:24px; color:#FFF; border-radius:0; letter-spacing:3px; border-bottom:solid 5px #000; margin-bottom:30px;}
+
+#div3 { background:#fe4950; text-align:center; color:#FFF; padding:40px 0;}
+#div3 h2 { margin-bottom:10px;}
+#div3 h3 { font-weight:normal;}
+#div3 p { width:60%; margin:auto; text-align:left;}
+#div3 img { margin:20px 0;}
+
+#div4 > div { padding:0;}
+#div4 .carousel-caption { bottom: 80px;}
+#div4 .carousel-caption h4 { font-size:23px;}
+#div4 .carousel-caption p  { font-size:18px;}
+
+#div5 { background:#332b76; text-align:center; color:#FFF; padding:40px 0;}
+.recuadros { text-align:center;}
+.sexta { background-color:#453b80; margin:5px 1%; width:31%; padding:20px 0; cursor:pointer;}
+.sexta:hover { background:#FFF; color:#453b80;}
+.sexta p { margin:10px 0;}
+
+.sexta2 { display:none; font-size:12px; text-align:justify; padding:10px;}
+.sexta:hover .sexta1 { display:none;}
+.sexta:hover .sexta2 { display:block;}
+
+
+/*TITULO*/
+#titulo { text-align:center; background:#fe4950; color:#FFF; }
+#titulo h2 { font-size:25px; margin:45px auto 25px;}
+#titulo img { margin-bottom:30px;}
+
+/*CONTENT*/
+#content { background:#f6f6f6; padding:60px 20%; color:#333; line-height:23px; font-size:15px}
+#content h3 { text-align:center; margin:25px 0;}
+#content p { margin-bottom:20px;}
+#content ul { margin:0; padding:0;}
+#content li { list-style-type:none; background:url(../img/bullet-about.png) no-repeat 0px 4px; padding-left:40px; margin-bottom:25px;}
+
+/*CONTACTO*/
+#contacto { background:#EEE; text-align:center;}
+#contacto img { margin:60px auto 30px;}
+#contacto p { font-size:12px; line-height:10px;}
+#contacto p:last-child { margin-bottom:60px}
+#contacto p a { color:#333; font-weight:bold; font-size:16px;}
+
+/*PIE*/
+#pie { text-align:center; color:#CCC;}
+#pie a { color:#CCC;}
+#pie img { margin:70px auto}
+#pie p { margin-bottom:40px;}
+.colores-fondo { background:url(../img/fondo-pie.gif) repeat-x; height:10px;}
+
+/*ESPECIFICOS*/
+
+/*Escritorio grande*/
+@media (min-width: 1200px){
+       #top {xbackground-color:red !important;}
+	   .recuadros {padding:0 70px;}
+	   .sexta { height:170px;} 
+}
+/* Escritorio pequeño o tablet */
+@media (min-width:992px) and (max-width:1199px){
+       #top {xbackground-color:green !important;}
+	   .recuadros {padding:0 70px;}
+	   .sexta { height:170px;} 
+
+}
+/* Tablet o smartphone */
+@media (min-width:768px) and (max-width:991px){
+       #top {xbackground-color:blue !important;}
+	   .recuadros {padding:0 40px;}
+	   .sexta{ height:170px;} 
+}
+/* Smartphone */
+@media (max-width:767px){
+       #top {xbackground-color:yellow !important;}
+	   .navbar-nav { text-align:right;}
+	   #div3 p, #div3 p { width:80%;}
+	   .sexta { height:175px;} 
+	   .recuadros {padding:0 30px;}
+}
+
