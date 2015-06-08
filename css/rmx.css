@@ -53,7 +53,7 @@ div.responsive img  { height:auto; max-width:100%;}
 #div5 { background:#332b76; text-align:center; color:#FFF; padding:40px 0;}
 .recuadros { text-align:center;}
 .row .recuadros { padding:0;}
-.sexta { background-color:#453b80; margin:5px 1%; padding:20px 0; cursor:pointer; height:170px; }
+.sexta { background-color:#453b80; margin:1%; padding:20px 0; cursor:pointer; height:170px; }
 .sexta:hover { background:#FFF; color:#453b80;}
 .sexta p { margin:10px 0;}
 
