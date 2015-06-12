@@ -3,7 +3,7 @@
 /* gris:  #383c3f */
 /* verde: #0cc581 */
 
-body { background:#383c3f;}
+body { background:#383c3f; font-size:16px;}
 * { margin:0} 
 .container-fluid { padding:0}
 div.responsive img  { height:auto; max-width:100%;}
@@ -11,7 +11,7 @@ div.responsive img  { height:auto; max-width:100%;}
 
 #div1, #div2, #div3, #div4, #div5, #cabecera, #contacto, #pie { margin:0;}  
 
-#top { background:#0CC581; height:3px; }
+#top { /*background:#0CC581; height:3px;*/ }
 #cabecera { padding:0 7%;}
 
 /*NAV BAR*/
@@ -77,9 +77,9 @@ div.responsive img  { height:auto; max-width:100%;}
 /*CONTACTO*/
 #contacto { background:#EEE; text-align:center;}
 #contacto img { margin:60px auto 30px;}
-#contacto p { font-size:12px; line-height:10px;}
+#contacto * { line-height:10px; font-weight:normal;}
 #contacto p:last-child { margin-bottom:60px}
-#contacto p a { color:#333; font-weight:bold; font-size:16px;}
+#contacto p a { color:#333; font-weight:bold;}
 
 /*PIE*/
 #pie { text-align:center; color:#CCC;}
